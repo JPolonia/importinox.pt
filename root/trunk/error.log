@@ -1,0 +1,13 @@
+[27-Jul-2013 00:30:48 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: YES) in C:\wamp\www\root\trunk\classes\DB.class.php on line 197
+[27-Jul-2013 00:30:48 UTC] PHP Stack trace:
+[27-Jul-2013 00:30:48 UTC] PHP   1. {main}() C:\wamp\www\root\trunk\index.php:0
+[27-Jul-2013 00:30:48 UTC] PHP   2. include() C:\wamp\www\root\trunk\index.php:3
+[27-Jul-2013 00:30:48 UTC] PHP   3. mysql->connect() C:\wamp\www\root\trunk\preload.inc:44
+[27-Jul-2013 00:30:48 UTC] PHP   4. mysql_connect() C:\wamp\www\root\trunk\classes\DB.class.php:197
+[27-Jul-2013 00:33:33 UTC] PHP Warning:  trim() expects parameter 1 to be string, resource given in C:\wamp\www\root\trunk\classes\DB.class.php on line 290
+[27-Jul-2013 00:33:33 UTC] PHP Stack trace:
+[27-Jul-2013 00:33:33 UTC] PHP   1. {main}() C:\wamp\www\root\trunk\index.php:0
+[27-Jul-2013 00:33:33 UTC] PHP   2. include() C:\wamp\www\root\trunk\index.php:3
+[27-Jul-2013 00:33:33 UTC] PHP   3. mysql->getRow() C:\wamp\www\root\trunk\preload.inc:60
+[27-Jul-2013 00:33:33 UTC] PHP   4. trim() C:\wamp\www\root\trunk\classes\DB.class.php:290
+[26-Jul-2013 18:41:24 America/Denver] PHP Warning:  trim() expects parameter 1 to be string, resource given in /home/importin/public_html/root/trunk/classes/DB.class.php on line 290

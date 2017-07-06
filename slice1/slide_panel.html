@@ -1,0 +1,92 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+		<link type="text/css" rel="stylesheet" href="home_assets/spry_home.css">
+		<script src="includes/SpryDOMUtils.js" type="text/javascript"></script>
+		<script src="widgets/slidingpanels/SprySlidingPanels.js" type="text/javascript"></script>
+		<script src="home_assets/spry_home.js" type="text/javascript"></script>
+		<script src="jquery.min.js" type="text/javascript" language="javascript"></script>
+		<script>var $j=jQuery.noConflict();</script>
+		<style>
+			body{border:none; border-top:0px}
+			a { font-size:12px;color:#707070;font-weight:normal;font-family:Arial;text-decoration:none}
+			a:link { font-size:12px;color:#707070;font-weight:normal;font-family:Arial;text-decoration:none}
+			a:visited { font-size:12px;color:#707070;font-weight:normal;font-family:Arial;text-decoration:none}
+			a:active { font-size:12px;color:#707070;font-weight:normal;font-family:Arial;text-decoration:none}
+			a:hover { font-size:12px;color:#0076A3;font-weight:normal;font-family:Arial;text-decoration:none}
+			td {font-size:11px;color:#ffffff;font-weight:normal;font-family:Arial;}
+		</style>
+	</head>
+	<body>
+		<script type="text/javascript">
+			$j(document).ready(function()
+			{
+				$j("img.img_ef").hover(function() 
+				{
+					$j(this).animate({"opacity": "0.5"}, "slow");
+				},
+				function() 
+				{
+					$j(this).animate({"opacity": "1"}, "slow");
+				}
+				);
+			}
+			);
+				var xNextTabnumber=2;
+				function auto_start_slider()
+				{
+					if(xNextTabnumber<=3)
+					{
+						tab="slice"+xNextTabnumber;
+						if(document.getElementById(tab)) 
+							document.getElementById(tab).className=("tabActive");
+						if(document.getElementById(lastTab)) 
+							document.getElementById(lastTab).className=("tab");
+						
+						sp2.showPanel(tab+"Panel");
+						xNextTabnumber++;
+					}
+					else 
+						xNextTabnumber=1;
+					var t=setTimeout("auto_start_slider()",5000);
+				}
+				
+				var t=setTimeout("auto_start_slider()",2000);
+		</script>
+		<div id="container" style="z-index:1; width:623px;height:230px">
+			<div id="mainContent" style="background:#f4f4f4; width:623px;height:230px">
+				<div id="slidingPanel" class="SlidingPanels" style="width: 623px; height: 230px; overflow: hidden;" tabindex="0">
+					<div class="SlidingPanelsContentGroup" style="left: 0px; top: 0px;">
+						<div id="slice1Panel" class="p1 SlidingPanelsContent" style="width:623px;height:230px"><img border="0" src="img_upload/anuncios/1_1.jpg"></div>
+						<div id="slice2Panel" class="p2 SlidingPanelsContent" style="width:623px;height:230px"><img border="0" src="img_upload/anuncios/3_1.jpg"></div>
+						<div id="slice3Panel" class="p3 SlidingPanelsContent" style="width:623px;height:230px"><img border="0" src="img_upload/anuncios/2_1.jpg"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="position:absolute; z-index:10">
+			<div style="position:relative; top:-22px;">
+				<table width="623" cellspacing="0" cellpadding="0" border="0">
+					<tbody>
+						<tr>
+							<td align="right">
+								<table cellspacing="0" cellpadding="0" border="0">
+									<tbody>
+										<tr>
+										<td id="slice1" class="tabActive" width="20px" height="20px" background="templates/sel_cat.png" align="center" style="cursor:pointer; cursor:hand"><img border="0" src="templates/sel_cat.png"></td>
+										<td width="5"></td>
+										<td id="slice2" class="tabActive" width="20px" height="20px" background="templates/sel_cat.png" align="center" style="cursor:pointer; cursor:hand"><img border="0" src="templates/sel_cat.png"></td>
+										<td width="5"></td>
+										<td id="slice3" class="tab" width="20px" height="20px" background="templates/sel_cat.png" align="center" style="cursor:pointer; cursor:hand"><img border="0" src="templates/sel_cat.png"></td>
+										<td width="5"></td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>

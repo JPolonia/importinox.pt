@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+    <galeria>
+      <foto imagem="galeria/img1.jpg" aplicacao="Fachada e resguardo de escadaria" tipo="Recuperação de edifício" img="p1.jpg" material="Alumínio 1050" espessura="3 mm" furacao="LR3x20Z24x30" tratamento="Pintura"/>
+      <foto imagem="galeria/img2.jpg" aplicacao="Fachada e ecran de protecção solar" tipo="Recuperação de edifício 2" img="p2.jpg" material="Alumínio 1050" espessura="3 mm" furacao="LR3x20Z24x30" tratamento="Pintura"/>
+      <foto imagem="galeria/img3.jpg" aplicacao="Fachada e resguardo de escadaria" tipo="Recuperação de edifício 3" img="p1.jpg" material="Alumínio 1050" espessura="3 mm" furacao="LR3x20Z24x30" tratamento="Pintura"/>
+      <foto imagem="galeria/img4.jpg" aplicacao="Fachada e resguardo de escadaria" tipo="Recuperação de edifício 4" img="p1.jpg" material="Alumínio 1050" espessura="3 mm" furacao="LR3x20Z24x30" tratamento="Pintura"/>
+   </galeria>

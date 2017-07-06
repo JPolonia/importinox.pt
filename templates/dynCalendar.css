@@ -1,0 +1,21 @@
+.dynCalendar_header {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; FONT-FAMILY: Arial,Verdana,Helvetica,Sans-Serif; 
+}
+.dynCalendar_dayname {
+	width:19;BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #c0c0c0 1px solid; BORDER-BOTTOM: #c0c0c0 1px solid; FONT-FAMILY: Arial,Verdana,Helvetica,Sans-Serif; BACKGROUND-COLOR: #eeeeee; TEXT-ALIGN: center
+}
+.dynCalendar_day {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial,Verdana,Helvetica,Sans-Serif; BACKGROUND-COLOR: #eeeeee
+}
+.dynCalendar {
+	BORDER-RIGHT: white 2px outset; BORDER-TOP: white 2px outset; LEFT: 1px; VISIBILITY: hidden; BORDER-LEFT: white 2px outset; BORDER-BOTTOM: white 2px outset; POSITION: absolute; TOP: 1px; BACKGROUND-COLOR: #eeeeee
+}
+.dyncalendar TABLE {
+	BACKGROUND-COLOR: #eeeeee
+}
+.dynCalendar TD {
+	BACKGROUND-COLOR: #eeeeee
+}
+TD.dynCalendar_today {
+	BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #c0c0c0 1px solid; BORDER-BOTTOM: #c0c0c0 1px solid; FONT-FAMILY: Arial,Verdana,Helvetica,Sans-Serif; BACKGROUND-COLOR: #ffffff
+}

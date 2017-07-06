@@ -1,0 +1,30 @@
+@charset "utf-8";
+html {margin:0px; padding:0px}
+.SlidingPanels {
+	float: left;
+	position: relative;
+	width: 683px;
+	height: 254px;
+	padding: 0px;
+	border: none;
+}
+.SlidingPanelsContentGroup {
+	position: relative;
+	float: left;
+	width: 10000px;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+.SlidingPanelsContent {
+	float: left;
+	width: 683px;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	padding-right:0px;
+	border: none;
+}
+.SlidingPanelsAnimating * {
+	overflow: hidden !important;
+}

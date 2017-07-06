@@ -1,0 +1,21 @@
+/* CoolMenus 4 - default styles - do not edit */
+.clCMEvent{position:absolute; width:99%; height:99%; clip:rect(0,100%,100%,0); left:0; top:0; visibility:visible}
+.clCMAbs{position:absolute; visibility:hidden; left:0; top:0}
+/* CoolMenus 4 - default styles - end */
+/*Style for the background-bar*/
+.clBar{position:absolute; width:10; height:10; background-color:Navy; layer-background-color:Navy; visibility:hidden}
+/*Styles for level 0*/
+.clLevel0,.clLevel0over{position:absolute; padding:0px; font-family:arial; font-size:14px; text-align: left; font-weight:bold}
+.clLevel0{color:#FFFFFF; background:url(templates/menu1.jpg); padding-left:23px}
+.clLevel0over{color:#4a8ac7; cursor:pointer; cursor:hand; background:url(templates/menu2.jpg); padding-left:41px }
+.clLevel0border{position:absolute; visibility:hidden; }
+/*Styles for level 1*/
+.clLevel1,.clLevel1over{position:absolute; padding:3px; font-family:arial; font-size:14px; text-align:left; padding-left:23px}
+.clLevel1{background:url(templates/menu3.jpg); color:#4a8ac7;}
+.clLevel1over{background:url(templates/menu1.jpg); color:#FFFFFF; cursor:hand; cursor:pointer;}
+.clLevel1border{position:absolute; z-index:500; visibility:hidden; background-color:#EEEEF0; layer-background-color:#EEEEF0}
+/*Styles for level 2*/
+.clLevel2,.clLevel2over{position:absolute; padding:3px; font-family:arial; font-size:14px; text-align:left; padding-left:23px}
+.clLevel2{background:url(templates/menu3.jpg); color:#4a8ac7}
+.clLevel2over{background:url(templates/menu1.jpg); color:#FFFFFF; cursor:hand; cursor:pointer;}
+.clLevel2border{position:absolute; z-index:500; visibility:hidden; background-color:#EEEEF0; layer-background-color:#EEEEF0}
